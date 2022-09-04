@@ -1,0 +1,21 @@
+~4305
+
+[PREAMBLE][2-digit CMD][2-digit MSG LENGTH][MSG][POSTAMBLE]
+
+Command List
+
+00 - No Valid Cmd
+01 - Read All Data
+02 - Read Alarms
+03 - Read DIO
+04 - Read AIO
+
+20 - Set DIO
+21 - Set AIO
+22 - 
+23 - 
+
+50 - Reboot Linux
+51 - 
+52 - 
+53 - 

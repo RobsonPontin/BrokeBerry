@@ -1,0 +1,15 @@
+Running Processes
+
+- mosquit+ (IPv4 liston socket on Port: 1883)
+
+Architecture
+
+- broke.c : Broke Data Processment
+- host_interface.c : Protocol layer
+- dio_functions.c : Process layer (it will be responsible for delegate all requests from the clients)
+- dio.c : DIO and AIO
+
+Behavior
+
+- MQQT Broker must receive multiples connections
+- Handles requests to toggle IOs

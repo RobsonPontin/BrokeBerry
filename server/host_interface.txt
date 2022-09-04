@@ -1,0 +1,12 @@
+Protocol
+
+Msg treatment
+
+1 - Receive buffer msg
+2 - Decode msg
+ 2.1 get lenght
+ 2.2 isValid msg format?
+ 2.3 CheckCMD
+ 2.4 Act Execution
+
+
